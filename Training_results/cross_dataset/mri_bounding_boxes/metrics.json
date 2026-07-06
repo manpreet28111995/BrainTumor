@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.9738997904362736,
+  "balanced_accuracy": 0.9746730936483128,
+  "cohen_kappa": 0.9645405797646003,
+  "mcc": 0.9649171815760514,
+  "log_loss": 0.16497260332107544,
+  "error_rate": 0.026100209563726384,
+  "num_samples": 5249,
+  "f1_macro": 0.9748113072830885,
+  "precision_macro": 0.9759003567151167,
+  "recall_macro": 0.9746730936483128,
+  "f1_weighted": 0.9739119727202923,
+  "precision_weighted": 0.9749510800085565,
+  "recall_weighted": 0.9738997904362736,
+  "glioma_f1": 0.9630188679245283,
+  "glioma_precision": 0.9375459221160911,
+  "glioma_recall": 0.9899146625290923,
+  "glioma_iou": 0.928675400284362,
+  "glioma_dice": 0.9630188679245283,
+  "meningioma_f1": 0.9822816288467516,
+  "meningioma_precision": 0.9705159705159705,
+  "meningioma_recall": 0.9943360604153556,
+  "meningioma_iou": 0.9651802076911108,
+  "meningioma_dice": 0.9822816288467516,
+  "notumor_f1": 0.9856697819314642,
+  "notumor_precision": 0.9962216624685138,
+  "notumor_recall": 0.9753390875462392,
+  "notumor_iou": 0.9717444717325339,
+  "notumor_dice": 0.9856697819314642,
+  "pituitary_f1": 0.9682749504296101,
+  "pituitary_precision": 0.9993178717598908,
+  "pituitary_recall": 0.9391025641025641,
+  "pituitary_iou": 0.9385009609164735,
+  "pituitary_dice": 0.9682749504296101,
+  "auc_roc": 0.9976153018205751,
+  "auc_pr_macro": 0.9935439624224517,
+  "confusion_matrix": [
+    [
+      1276,
+      13,
+      0,
+      0
+    ],
+    [
+      7,
+      1580,
+      1,
+      1
+    ],
+    [
+      17,
+      3,
+      791,
+      0
+    ],
+    [
+      61,
+      32,
+      2,
+      1465
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n      glioma    0.93755   0.98991   0.96302      1289\n  meningioma    0.97052   0.99434   0.98228      1589\n     notumor    0.99622   0.97534   0.98567       811\n   pituitary    0.99932   0.93910   0.96827      1560\n\n    accuracy                        0.97390      5249\n   macro avg    0.97590   0.97467   0.97481      5249\nweighted avg    0.97495   0.97390   0.97391      5249\n"
+}

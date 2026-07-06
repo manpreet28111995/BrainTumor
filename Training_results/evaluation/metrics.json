@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.9766071428571429,
+  "balanced_accuracy": 0.9766071428571429,
+  "cohen_kappa": 0.9688095238095238,
+  "mcc": 0.9691115529562041,
+  "log_loss": 0.1569526493549347,
+  "error_rate": 0.023392857142857104,
+  "f1_macro": 0.9765877122888266,
+  "precision_macro": 0.9774860804967083,
+  "recall_macro": 0.9766071428571429,
+  "f1_weighted": 0.9765877122888268,
+  "precision_weighted": 0.9774860804967083,
+  "recall_weighted": 0.9766071428571429,
+  "glioma_f1": 0.9662843239485576,
+  "glioma_precision": 0.9410968178740691,
+  "glioma_recall": 0.9928571428571429,
+  "glioma_iou": 0.9347679892337944,
+  "glioma_dice": 0.9662843239485576,
+  "meningioma_f1": 0.9812256464753808,
+  "meningioma_precision": 0.9732958538299368,
+  "meningioma_recall": 0.9892857142857143,
+  "meningioma_iou": 0.9631432545134692,
+  "meningioma_dice": 0.9812256464753808,
+  "notumor_f1": 0.9942652329749104,
+  "notumor_precision": 0.9978417266187051,
+  "notumor_recall": 0.9907142857142858,
+  "notumor_iou": 0.9885958659943793,
+  "notumor_dice": 0.9942652329749104,
+  "pituitary_f1": 0.9645756457564576,
+  "pituitary_precision": 0.9977099236641221,
+  "pituitary_recall": 0.9335714285714286,
+  "pituitary_iou": 0.9315751960019133,
+  "pituitary_dice": 0.9645756457564576,
+  "auc_roc": 0.9983123724489796,
+  "auc_pr_macro": 0.994456588014385,
+  "confusion_matrix": [
+    [
+      1390,
+      10,
+      0,
+      0
+    ],
+    [
+      10,
+      1385,
+      2,
+      3
+    ],
+    [
+      10,
+      3,
+      1387,
+      0
+    ],
+    [
+      67,
+      25,
+      1,
+      1307
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n      glioma    0.94110   0.99286   0.96628      1400\n  meningioma    0.97330   0.98929   0.98123      1400\n     notumor    0.99784   0.99071   0.99427      1400\n   pituitary    0.99771   0.93357   0.96458      1400\n\n    accuracy                        0.97661      5600\n   macro avg    0.97749   0.97661   0.97659      5600\nweighted avg    0.97749   0.97661   0.97659      5600\n",
+  "num_samples": 5600
+}

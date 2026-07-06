@@ -1,0 +1,47 @@
+{
+  "accuracy": 0.9275,
+  "balanced_accuracy": 0.9275,
+  "f1_weighted": 0.9267957654235621,
+  "f1_macro": 0.9267957654235622,
+  "num_samples": 1600,
+  "auc_roc": 0.9798723958333334,
+  "glioma_f1": 0.8657894736842106,
+  "glioma_precision": 0.9138888888888889,
+  "glioma_recall": 0.8225,
+  "meningioma_f1": 0.9179548156956004,
+  "meningioma_precision": 0.8752834467120182,
+  "meningioma_recall": 0.965,
+  "notumor_f1": 0.9660194174757282,
+  "notumor_precision": 0.9386792452830188,
+  "notumor_recall": 0.995,
+  "pituitary_f1": 0.9574193548387097,
+  "pituitary_precision": 0.9893333333333333,
+  "pituitary_recall": 0.9275,
+  "classification_report": "              precision    recall  f1-score   support\n\n      glioma    0.91389   0.82250   0.86579       400\n  meningioma    0.87528   0.96500   0.91795       400\n     notumor    0.93868   0.99500   0.96602       400\n   pituitary    0.98933   0.92750   0.95742       400\n\n    accuracy                        0.92750      1600\n   macro avg    0.92930   0.92750   0.92680      1600\nweighted avg    0.92930   0.92750   0.92680      1600\n",
+  "confusion_matrix": [
+    [
+      329,
+      48,
+      23,
+      0
+    ],
+    [
+      7,
+      386,
+      3,
+      4
+    ],
+    [
+      1,
+      1,
+      398,
+      0
+    ],
+    [
+      23,
+      6,
+      0,
+      371
+    ]
+  ]
+}

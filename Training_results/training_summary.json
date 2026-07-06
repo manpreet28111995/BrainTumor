@@ -1,0 +1,100 @@
+{
+  "best_val_loss": 0.5031161759580884,
+  "best_val_acc": 0.9705357142857143,
+  "best_epoch": 183,
+  "total_epochs_trained": 200,
+  "config": {
+    "model/dims": [
+      48,
+      96,
+      192,
+      320
+    ],
+    "model/depths": [
+      2,
+      3,
+      6,
+      2
+    ],
+    "model/expansion": 3,
+    "model/spectral_fusion": true,
+    "model/freq_radius_init": 0.5,
+    "model/ssm_d_state": 8,
+    "model/ssm_expand": 1,
+    "model/ssm_layers": 2,
+    "model/msap_proj_dim": 128,
+    "model/num_classes": 4,
+    "model/dropout": 0.3,
+    "model/drop_path_rates": [
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "training/optimizer": "adamw",
+    "training/lr": 0.0005,
+    "training/weight_decay": 0.05,
+    "training/betas": [
+      0.9,
+      0.999
+    ],
+    "training/scheduler": "cosine_warm_restarts",
+    "training/warmup_epochs": 10,
+    "training/T_0": 30,
+    "training/T_mult": 2,
+    "training/eta_min": 1e-06,
+    "training/epochs": 200,
+    "training/batch_size": 16,
+    "training/grad_accumulation_steps": 8,
+    "training/grad_clip": 1.0,
+    "training/num_workers": 2,
+    "training/pin_memory": true,
+    "training/use_amp": true,
+    "training/early_stopping_patience": 25,
+    "training/early_stopping_min_delta": 0.0001,
+    "training/label_smoothing": 0.1,
+    "training/n_folds": 5,
+    "training/fold": 0,
+    "training/seed": 42,
+    "training/save_best": true,
+    "training/save_last": true,
+    "training/save_every_n_epochs": 10,
+    "training/test_every_n_epochs": 25,
+    "training/ema_decay": 0.99,
+    "data/data_root": "/kaggle/input/datasets/lucky02655/braintumor-dataset/data/kaggle-7023",
+    "data/dataset_type": "kaggle7023",
+    "data/kaggle_train_dir": "Training",
+    "data/kaggle_test_dir": "Testing",
+    "data/img_size": 224,
+    "data/class_names": [
+      "glioma",
+      "meningioma",
+      "notumor",
+      "pituitary"
+    ],
+    "data/num_classes": 4,
+    "data/mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "data/std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "data/val_split_ratio": 0.1,
+    "data/use_kfold": true,
+    "wandb/enabled": false,
+    "wandb/project": "FLUX-Net-BrainTumor",
+    "wandb/entity": null,
+    "wandb/run_name": null,
+    "wandb/tags": [
+      "brain-tumor",
+      "classification",
+      "flux-net"
+    ],
+    "wandb/log_model": true,
+    "wandb/log_freq": 50
+  }
+}

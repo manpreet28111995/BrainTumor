@@ -1,0 +1,29 @@
+{
+  "dims": [
+    48,
+    96,
+    192,
+    320
+  ],
+  "depths": [
+    2,
+    3,
+    6,
+    2
+  ],
+  "expansion": 3,
+  "spectral_fusion": true,
+  "freq_radius_init": 0.5,
+  "ssm_d_state": 8,
+  "ssm_expand": 1,
+  "ssm_layers": 2,
+  "msap_proj_dim": 128,
+  "num_classes": 4,
+  "dropout": 0.3,
+  "drop_path_rates": [
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ]
+}

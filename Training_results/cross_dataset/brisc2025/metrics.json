@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.943,
+  "balanced_accuracy": 0.9364871119051296,
+  "cohen_kappa": 0.9220224903554133,
+  "mcc": 0.9229844070215828,
+  "log_loss": 0.24075789749622345,
+  "error_rate": 0.05700000000000005,
+  "num_samples": 1000,
+  "f1_macro": 0.9409574635319627,
+  "precision_macro": 0.9484919502385065,
+  "recall_macro": 0.9364871119051296,
+  "f1_weighted": 0.9429987932926868,
+  "precision_weighted": 0.945853349867431,
+  "recall_weighted": 0.943,
+  "glioma_f1": 0.9393939393939394,
+  "glioma_precision": 0.9051094890510949,
+  "glioma_recall": 0.9763779527559056,
+  "glioma_iou": 0.8857142856826531,
+  "glioma_dice": 0.9393939393939394,
+  "meningioma_f1": 0.946031746031746,
+  "meningioma_precision": 0.9197530864197531,
+  "meningioma_recall": 0.9738562091503268,
+  "meningioma_iou": 0.8975903614187473,
+  "meningioma_dice": 0.946031746031746,
+  "notumor_f1": 0.9288389513108615,
+  "notumor_precision": 0.9763779527559056,
+  "notumor_recall": 0.8857142857142857,
+  "notumor_iou": 0.8671328670722285,
+  "notumor_dice": 0.9288389513108615,
+  "pituitary_f1": 0.9495652173913044,
+  "pituitary_precision": 0.9927272727272727,
+  "pituitary_recall": 0.91,
+  "pituitary_iou": 0.903973509903842,
+  "pituitary_dice": 0.9495652173913044,
+  "auc_roc": 0.9871755493807696,
+  "auc_pr_macro": 0.9792329375122119,
+  "confusion_matrix": [
+    [
+      248,
+      6,
+      0,
+      0
+    ],
+    [
+      3,
+      298,
+      3,
+      2
+    ],
+    [
+      3,
+      13,
+      124,
+      0
+    ],
+    [
+      20,
+      7,
+      0,
+      273
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n      glioma    0.90511   0.97638   0.93939       254\n  meningioma    0.91975   0.97386   0.94603       306\n     notumor    0.97638   0.88571   0.92884       140\n   pituitary    0.99273   0.91000   0.94957       300\n\n    accuracy                        0.94300      1000\n   macro avg    0.94849   0.93649   0.94096      1000\nweighted avg    0.94585   0.94300   0.94300      1000\n"
+}
